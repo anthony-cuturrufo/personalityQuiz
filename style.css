@@ -1,0 +1,98 @@
+body{
+  margin: 0px;
+}
+
+.centeredTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Q1{
+  font-size: 2em;
+  position: relative;
+
+  right: 0em;
+}
+.Op1{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+.Question1{
+  top:1em;
+  height: auto !important ;
+  width: auto !important;
+}
+.centeredTitle {
+  display: flex;
+  font-size: 6em;
+  align-items: flex-end;
+  color: rgb(255, 0, 0);
+
+}
+
+.centeredPTag {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.header{
+
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(http://lghttp.60358.nexcesscdn.net/8046264/images/page/-/100rc/img/cities/cities-nyc_optimized.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    height: 25em;
+
+    top: 0em;
+
+}
+
+.imageProps {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  height: 10em;
+  position: relative;
+  top: 3em;
+
+}
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {
+  background-color: #3e8e41
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+#bordered {
+  margin: 5px;
+  padding: 5px;
+  border: 2.5px solid green;
+  border-radius: 10px;
+}
+
+#bordered:hover {
+  border-color: red;
+}
